@@ -1,0 +1,10 @@
+<section>
+  <h2>There are {{shows.length}} shows you've watched most frequently.</h2>
+  {{#each shows}}
+    {{! for each show in shows, create the following html }}
+    <article class="clearfix item-container block">
+      <h2>{{title}}</h2>
+      <img class="item-img" src={{image}} />
+    </article>
+  {{/each}}
+</section>

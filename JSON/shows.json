@@ -1,0 +1,74 @@
+{
+  "dataShows": [
+    {
+      "title": "How I met your mother",
+      "genre": "sitcom, rom com, drama",
+      "rating": 4.7,
+      "status": "ended",
+      "image": "/img/how_i_met_your_mother.jpeg"
+    },
+    {
+      "title": "90 days fiancee",
+      "genre": "reality tv",
+      "rating": 3.6,
+      "status": "ended",
+      "image": "/img/90_days_fiancee.jpeg"
+    },
+    {
+      "title": "Only murders in the building",
+      "genre": "mystery, comedy",
+      "rating": 4.8,
+      "status": "renewed",
+      "image": "/img/only_murders_in_the_building.webp"
+    },
+    {
+      "title": "StartUp",
+      "genre": "drama",
+      "rating": 4.6,
+      "status": "ended",
+      "image": "/img/start_up.jpeg"
+    },
+    {
+      "title": "The 100",
+      "genre": "sci-fi, mystery, drama",
+      "rating": 4.7,
+      "status": "ended",
+      "image": "/img/the_100.jpeg"
+    },
+    {
+      "title": "Hometown cha cha cha",
+      "genre": "rom com, slice of life",
+      "rating": 4.9,
+      "status": "ended",
+      "image": "/img/hometown_cha_cha_cha.jpeg"
+    },
+    {
+      "title": "The office",
+      "genre": "sitcom, office humor, pseudo documentary",
+      "rating": 4.8,
+      "status": "ended",
+      "image": "/img/the_office.png"
+    },
+    {
+      "title": "Brooklyn 99",
+      "genre": "sitcom, comedy, police procedural",
+      "rating": 4.9,
+      "status": "ended",
+      "image": "/img/brooklyn_99.jpeg"
+    },
+    {
+      "title": "South park",
+      "genre": "satire, comedy, surreal humor",
+      "rating": 4.7,
+      "status": "renewed",
+      "image": "/img/southpark.jpeg"
+    },
+    {
+      "title": "I Know What You Did Last Summer",
+      "genre": "horror, mystery, teen",
+      "rating": 4.1,
+      "status": "canceled",
+      "image": "/img/i_know_what_you_did_last_summer.jpeg"
+    }
+  ]
+}
