@@ -1,10 +1,36 @@
 <section>
-  <h2>There are {{shows.length}} shows you've watched most frequently.</h2>
-  {{#each shows}}
-    {{! for each show in shows, create the following html }}
-    <article class="clearfix item-container block">
-      <h2>{{title}}</h2>
-      <img class="item-img" src={{image}} />
-    </article>
-  {{/each}}
+  <div class="navbar-wrapper">
+    <div class="navbar">
+      <span class="logo-div">
+        <span class="logo-text">TV SHOWS</span>
+      </span>
+      <div class="dropdown-shows-container" id="dropdown-shows-navbar">
+        <button class="dropdown-btn">All shows</button>
+        <div class="dropdown-content">
+          <a class="title" href="/shows/1">How I met your mother</a>
+          <a class="title" href="/shows/2">90 days fiancee</a>
+          <a class="title" href="/shows/3">Only murders in the building</a>
+          <a class="title" href="/shows/4">StartUp</a>
+          <a class="title" href="/shows/5">The 100</a>
+          <a class="title" href="/shows/6">Hometown cha cha cha</a>
+          <a class="title" href="/shows/7">The office</a>
+          <a class="title" href="/shows/8">Brooklyn 99</a>
+          <a class="title" href="/shows/9">South park</a>
+          <a class="title" href="/shows/10">I know what you did last summer</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="margin-top">There are {{shows.length}} shows you've watched most frequently.</h2>
+  <div class="hero">
+    {{#each shows}}
+      {{! for each show in shows, create the following html }}
+      <article class="clearfix item-container block">
+        <h2>{{title}}</h2>
+        <img class="item-img" src={{image}} />
+        <br>
+        <a class="btn" href="/shows/{{id}}">See show details</a>
+      </article>
+    {{/each}}
+  </div>
 </section>
