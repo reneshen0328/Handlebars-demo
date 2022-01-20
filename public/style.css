@@ -30,8 +30,9 @@ a:visited {
 
 .hero {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
+  
 }
 
 .margin-top {
@@ -41,14 +42,15 @@ a:visited {
 .block {
   display: flex;
   flex-direction: column;
-  width: 28vw;
+  width: 30vw;
   float: left;
+  
 }
 
 .item-container {
   display: block;
   padding: 1vw;
-  margin: 0.5vw;
+  margin: 15px;
   background-color: #4c1211;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -58,7 +60,7 @@ a:visited {
   margin-left: auto;
   margin-right: auto;
   image-rendering: auto;
-max-width: 400px;
+  max-width: 400px;
   padding: 0 10px;
   height: 250px;
   background-repeat: no-repeat;
@@ -169,6 +171,9 @@ select {
     width: 80vw;
     float: left;
   }
+  /* .item-img{
+      margin: 10px;
+  } */
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
