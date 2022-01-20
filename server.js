@@ -45,6 +45,20 @@ app.get("/shows/:id", async (req, res) => {
   const show = await Show.findByPk(req.params.id);
   res.render("show", { show });
 });
+
+// Creating new show using forms & handlebars
+app.get("/new-show-form",(req,res) =>{
+  res.render("newShowForm");
+})
+app.post("/new-show",async(req,res) =>{
+  const newShow = await Show.create(req.body);
+  const foundShow = await Show.findByPk(newShow.id)
+  if(foundShow){
+    res.status(200).send("New show created")
+  }else{
+    console.log("oh no!")
+  }
+})
 // Server start listening
 app.listen(port, async () => {
   //await db.sync({ force: true });
