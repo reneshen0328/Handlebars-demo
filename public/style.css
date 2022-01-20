@@ -20,7 +20,7 @@ body {
   padding: 2.5rem;
 }
 
-h2{
+h2 {
   font-weight: 100;
 }
 
@@ -34,30 +34,33 @@ a:visited {
   flex-wrap: wrap;
 }
 
-.margin-top{
+.margin-top {
   margin-top: 60px;
 }
 
-
 .block {
+  display: flex;
+  flex-direction: column;
   width: 28vw;
   float: left;
 }
 
 .item-container {
+  display: block;
   padding: 1vw;
   margin: 0.5vw;
   background-color: #4c1211;
-  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .item-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   image-rendering: auto;
-  width: auto;
-  max-width:420px;
+max-width: 400px;
   padding: 0 10px;
-  float: none;
-  height: 225px;
+  height: 250px;
   background-repeat: no-repeat;
   background-size: 225px;
 }
@@ -86,12 +89,11 @@ select {
 .navbar-wrapper {
   height: 45px;
   position: absolute;
-  top:0;
-  left:0;
-  right:0;
-  width:100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
   background-color: #835c3b;
-
 }
 
 .navbar {
@@ -160,4 +162,17 @@ select {
 
 .btn:hover {
   background-color: #152238;
+}
+
+@media only screen and (max-width: 700px) {
+  .block {
+    width: 80vw;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  .item-img {
+    width: 100%;
+  }
 }

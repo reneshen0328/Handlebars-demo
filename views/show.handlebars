@@ -1,6 +1,11 @@
 <div>
-    <h2>Number {{show.id}} TV Show : {{show.title}}</h2>
-    <img class="item-img-detail" src="{{show.image}}">
-    <br>
-    <a class="btn" href="/shows/">See all shows</a>
+  <h2>Number {{show.id}} TV Show : {{show.title}}</h2>
+  <img class="item-img-detail" src="{{show.image}}" />
+  <br />
+  <a class="btn" href="/shows/">See all shows</a>
+    <button id="delete-button">Delete a show</button>
+    <button id="like-button">Like!</button>
+    <h6 id="like-counter">Like Counter: <span id="show-likes">{{show.likes}}</span></h6>
 </div>
+<script src="/delete-show.js"></script>
+<script src="/like-button.js"></script>

@@ -21,15 +21,19 @@
       </div>
     </div>
   </div>
-  <h2 class="margin-top">There are {{shows.length}} shows you've watched most frequently.</h2>
+  <h2 class="margin-top">There are
+    {{shows.length}}
+    shows you've watched most frequently.</h2>
   <div class="hero">
     {{#each shows}}
       {{! for each show in shows, create the following html }}
       <article class="clearfix item-container block">
         <h2>{{title}}</h2>
         <img class="item-img" src={{image}} />
-        <br>
+        <br />
         <a class="btn" href="/shows/{{id}}">See show details</a>
+        <h6 id="like-counter">Like Counter:
+          <span id="show-likes">{{likes}}</span></h6>
       </article>
     {{/each}}
   </div>

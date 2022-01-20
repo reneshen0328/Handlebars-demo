@@ -9,6 +9,10 @@ Show.init(
     rating: DataTypes.NUMBER,
     status: DataTypes.STRING,
     image: DataTypes.STRING,
+    likes: {
+      type: DataTypes.INTEGER,
+      defaultValue: 0,
+    },
   },
   {
     sequelize: db,
