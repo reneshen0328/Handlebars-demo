@@ -1,0 +1,15 @@
+<h2>Welcome back!</h2>
+<form action="/signin" method="post">
+  <label for="emailaddress">Email address:</label>
+  <input type="text" id="emailaddress" name="emailaddress" required />
+  <br />
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required />
+  <br />
+  <label for="confirm">Confirm Password:</label>
+  <input type="password" id="confirm" name="confirm" required />
+  <br />
+  <button type="submit">Sign In</button>
+</form>
+<h3>{{alert}}</h3>
+<a href="/shows">Back</a>

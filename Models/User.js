@@ -4,11 +4,18 @@ class User extends Model {}
 
 User.init(
   {
-    emailaddress: DataTypes.STRING,
-    password: DataTypes.STRING,
+    emailaddress: {
+      type: DataTypes.STRING,
+      allowNull: false, // Or unique, but can set in server
+    },
+    password: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   {
     sequelize: db,
+    timestamps: false,
   }
 );
 
