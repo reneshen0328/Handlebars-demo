@@ -12,7 +12,11 @@ A streaming service that offers the display of a wide variety of TV shows. User 
 
 ## About this project
 <p>Homepage: <a href="http://localhost:3000/shows">/shows</a></p>
+<img width="1656" alt="Screenshot 2023-02-20 at 11 12 59 PM" src="https://user-images.githubusercontent.com/96209918/220273668-37a12c91-b9c8-4a88-b0be-a92a55397932.png">
+
 <p>Detail Show Page: /shows/:id</p>
+<img width="1656" alt="Screenshot 2023-02-20 at 11 13 36 PM" src="https://user-images.githubusercontent.com/96209918/220273760-89f713e7-a5a0-4668-af78-d3d7432fdd4b.png">
+
 <p>New Show Page: /new-show-form</p>
 <p>Signup Page: /signup</p>
 <p>Sign out Page: /signout</p>
